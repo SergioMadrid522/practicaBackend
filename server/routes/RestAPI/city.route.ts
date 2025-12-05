@@ -6,6 +6,7 @@ import type { Request, Response } from "express";
 import { houseSchema } from "../../schemas/city.schema.ts";
 
 const router = express.Router();
+
 router.post("/addHouse", (req: Request, res: Response) => {
   const result = houseSchema.safeParse(req.body);
 
@@ -19,4 +20,5 @@ router.post("/addHouse", (req: Request, res: Response) => {
     data,
   });
 });
+
 export default router;

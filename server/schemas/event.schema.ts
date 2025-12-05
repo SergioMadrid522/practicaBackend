@@ -1,6 +1,24 @@
 /* libraries */
 import { z } from "zod";
 
+interface EventSchema {
+  title: string;
+  date: string;
+  organizer: {
+    name: string;
+    email: string;
+  };
+}
+
+const data: EventSchema = {
+  title: "ricardo's party",
+  date: "12/07/2026",
+  organizer: {
+    name: "sergio",
+    email: "sergioac.madrid@hotmail.com",
+  },
+};
+
 export const eventSchema = z
   .object({
     title: z
