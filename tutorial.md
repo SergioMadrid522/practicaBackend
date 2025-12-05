@@ -12,9 +12,9 @@
     npm install --save-dev ts-node typescript @types/node
 ```
 
-**ts-node** = ejecutar archivos .ts directamente (compila + ejecuta)
-**typescript** = compila
-**@types/node** = autocompletado del api de node
+- **ts-node** = ejecutar archivos .ts directamente (compila + ejecuta)
+- **typescript** = compila
+- **@types/node** = autocompletado del api de node
 
 3. Crear archivo tsconfig.json
 
@@ -58,9 +58,9 @@
     }
 ```
 
-**watch**: qué carpetas o archivos debe vigilar
-**ext**: Extensiones de archivos que harán que nodemon reinicie.
-**exec**: Comando que nodemon ejecutará cuando detecte cambios.
+- **watch**: qué carpetas o archivos debe vigilar
+- **ext**: Extensiones de archivos que harán que nodemon reinicie.
+- **exec**: Comando que nodemon ejecutará cuando detecte cambios.
 
 3. después en el package.json en "scripts" agregar lo siguiente
 
