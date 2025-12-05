@@ -40,15 +40,15 @@
     npm run dev
 ```
 
-    Instalación de nodemon con ts
+# Instalación de nodemon con ts
 
-7. instalar nodemon
+1. instalar nodemon
 
 ```bash
     npm install --save-dev nodemon
 ```
 
-8. crear el archivo de nodemon.json
+2. crear el archivo de nodemon.json
 
 ```bash
     {
@@ -62,13 +62,13 @@
 **ext**: Extensiones de archivos que harán que nodemon reinicie.
 **exec**: Comando que nodemon ejecutará cuando detecte cambios.
 
-9. después en el package.json en "scripts" agregar lo siguiente
+3. después en el package.json en "scripts" agregar lo siguiente
 
 ```bash
     "dev": "nodemon"
 ```
 
-10. ejecutar:
+4. ejecutar:
 
 ```bash
     npm run dev
